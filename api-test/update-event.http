@@ -1,8 +1,9 @@
-PUT http://localhost:8080/events/2
+PUT http://localhost:8080/events/1
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJleHAiOjE3MTEyMTQ4MTcsInVzZXJJZCI6MX0.SRIjf_JP-pITi3udz0yLy9EfBn7d6wcukBdTjjqHjJ4
 
 {
-  "Name":"test222",
+  "Name":"test222!!!",
   "Description":"this is a test222",
   "Location":"Mosco",
   "DateTime":"2023-01-02T15:04:05Z"
