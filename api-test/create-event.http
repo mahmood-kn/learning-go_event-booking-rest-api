@@ -1,10 +1,10 @@
 POST http://localhost:8080/events
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJleHAiOjE3MTEyMTI3NjAsInVzZXJJZCI6MX0.FMLZxCyf9k_2BAm99xYMvv63-nw5dBlLjZsBLnNLRz0
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQHRlc3QuY29tIiwiZXhwIjoxNzExMjEzMjY3LCJ1c2VySWQiOjJ9.suLmF01n5YZgYBEGIk_cvzl59EO32kqTz7BI9JrjoeQ
 
 {
   "Name":"test",
-  "Description":"this is a test",
+  "Description":"this is a test from user 2",
   "Location":"NewYork",
   "DateTime":"2024-01-02T15:04:05Z"
 }
